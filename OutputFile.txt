@@ -1,0 +1,6 @@
+value at:0 = 5
+value at:1 = 6
+value at:2 = 7
+value at:3 = 8
+value at:4 = 9
+value at:5 = 2
