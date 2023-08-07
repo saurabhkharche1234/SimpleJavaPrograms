@@ -22,9 +22,11 @@ public class QuickSort {
 			}
 		}
 		i++;
-		int temp = arr[i];
-		arr[i] = pivot;
-		arr[high] =temp;
+		
+		//swap for pivot position
+		int temp = arr[i];  //to temporary store value bigger than pivot
+		arr[i] = pivot;   //moving pivot to its actual position
+		arr[high] =temp; //moving values bigger than pivot after pivot position in array
 		return i;  //pivot
 		
 	}
