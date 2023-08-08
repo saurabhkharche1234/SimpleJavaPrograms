@@ -1,4 +1,4 @@
-//we sort array using divide and conquer technique where we keep on dividing the array in half and then combine them 
+//we sort array using divide and conquer technique where we keep on dividing the array in half and then combine them
 //si = starting index, ei= ending index
 //time complexity is O(nlogn)
 // to be implemented when we have more memory and even in worst case we want time complexity as O(nlogn)

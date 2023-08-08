@@ -1,3 +1,6 @@
+//selection sort is almost same as bubble sort but the difference is here we perform single swap per iteration to get the smallest value
+//time complexity is O(n^2)
+
 package sorting;
 import java.util.*;
 public class Selection_Sort {

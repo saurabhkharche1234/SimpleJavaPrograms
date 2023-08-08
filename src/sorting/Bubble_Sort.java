@@ -1,3 +1,7 @@
+//in bubble sort we move heavier elements i.e. bigger elements to the end of array comparing them with all other elements present in array
+// time complexity is O(n^2)
+//in bubble sort we keep on swapping elements every time.
+
 package sorting;
 import java.util.*;
 public class Bubble_Sort {
@@ -19,7 +23,8 @@ public class Bubble_Sort {
 	       for(int i=0; i<arr.length-1; i++) {
 	           for(int j=0; j<arr.length-i-1; j++) {
 	               if(arr[j] > arr[j+1]) {
-	                   //swap
+	                   
+	            	   //swap
 	                   int temp = arr[j];
 	                   arr[j] = arr[j+1];
 	                   arr[j+1] = temp;
