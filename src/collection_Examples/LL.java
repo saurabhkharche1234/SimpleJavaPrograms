@@ -105,8 +105,38 @@ public class LL {
 	public int getSize() {
 		return size;
 	}
+	
+	public void reverseList() {
+		if(head ==null || head.next == null) {
+			return;
+		}
 		
-
+		Node prevNode = head;
+		Node currNode = head.next;
+		
+		while(currNode!=null) {
+			Node nextNode = currNode.next;
+			
+			currNode.next = prevNode;
+			prevNode = currNode;
+			currNode = nextNode;
+		}
+		head.next = null;
+		head = prevNode;
+	}
+		
+	public static Node reverseRecursive(Node head){
+		if(head==null||head.next==null) {
+			return head;
+		}
+		
+		Node newhead = reverseRecursive(head.next);
+		head.next.next = head;
+		head.next = null;
+		
+		return newhead;
+		
+	}
 	public static void main(String[] args) {
 		LL list = new LL();
 		
@@ -124,6 +154,11 @@ public class LL {
 		
 		System.out.println(list.getSize());
 		
+		list.reverseList();
+		list.printList();
+		
+		list.head = reverseRecursive(list.head);
+		list.printList();
 		
 }
 }
