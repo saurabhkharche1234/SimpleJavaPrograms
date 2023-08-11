@@ -12,7 +12,7 @@
 //isIdentical function to find whether given subtree belong to our main tree or not
 //to comment all lines together: shoutcut is: control +/
 
-package collection_Examples;
+package dataStructures;
 import java.util.*;
 public class BinaryTreesYT {
 	 

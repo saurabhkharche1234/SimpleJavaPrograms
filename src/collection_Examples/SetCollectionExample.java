@@ -77,7 +77,7 @@ public class SetCollectionExample {
 		
 		
 		System.out.println("==============");
-		System.out.println("TREESET");
+		System.out.println("   TREESET    ");
 		System.out.println("==============");
 	
 		Set<String> sortedTreeSet = new TreeSet<>();

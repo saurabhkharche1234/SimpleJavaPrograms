@@ -3,7 +3,7 @@
 //time complexity worst = O(n^2) and average time complexity is O(nlogn)
 //worst case occurs when pivot is always smallest or largest element
 
-package sorting;
+package dataStructures;
 
 public class QuickSort {
 	

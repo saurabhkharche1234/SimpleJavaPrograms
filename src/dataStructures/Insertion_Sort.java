@@ -1,7 +1,7 @@
 //in insertion sort we divide array in two parts: Sorted part and unsorted part and then we place elements from unsorted part into sorted part to its right position 
 // time complexity: O(n^2)
 
-package sorting;
+package dataStructures;
 
 public class Insertion_Sort {
 	  public static void printArray(int arr[]) {

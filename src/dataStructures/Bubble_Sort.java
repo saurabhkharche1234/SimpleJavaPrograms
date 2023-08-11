@@ -2,8 +2,7 @@
 // time complexity is O(n^2)
 //in bubble sort we keep on swapping elements every time.
 
-package sorting;
-import java.util.*;
+package dataStructures;
 public class Bubble_Sort {
 	
 	public static void printArray(int arr[])

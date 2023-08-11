@@ -10,7 +10,7 @@ public class MapCollectionExample {
 	public static void main(String[] args) {
 		
 		System.out.println("================");
-		System.out.println("HASHMAP");
+		System.out.println("     HASHMAP    ");
 		System.out.println("================");
 		
 		Map<String, String> hashMap = new HashMap<>();

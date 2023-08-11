@@ -2,7 +2,7 @@
 //si = starting index, ei= ending index
 //time complexity is O(nlogn)
 // to be implemented when we have more memory and even in worst case we want time complexity as O(nlogn)
-package sorting;
+package dataStructures;
 import java.util.Scanner;
 public class Merge_Sort extends Exception {
 
