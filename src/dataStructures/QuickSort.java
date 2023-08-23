@@ -1,4 +1,4 @@
-//in quick sort we use pivot and partition technique most preferable way to do quick sort is to set last arrayitem as pivot
+//in quick sort we use pivot and partition technique most preferable way to do quick sort is to set last array item as pivot
 //to be used when we have average cases and we need to use low memory
 //time complexity worst = O(n^2) and average time complexity is O(nlogn)
 //worst case occurs when pivot is always smallest or largest element
