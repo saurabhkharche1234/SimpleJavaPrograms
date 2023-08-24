@@ -42,7 +42,7 @@ public class Merge_Sort extends Exception {
 			return;
 		}
 		
-		int mid = si + (ei-si)/2;  //to divide in half
+		int mid = si + (ei-si)/2;  //to divide in half other option is (si+ei)/2
 		
 		divide(arr, si, mid);
 		divide(arr,mid+1,ei);
