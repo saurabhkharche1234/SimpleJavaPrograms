@@ -5,34 +5,35 @@ import java.util.Scanner;
 public class Check_Leap_Year {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the year");
-		int year = sc.nextInt();
-		boolean flag = false;
-		
-		if(year%400==0)
-		{
-			flag = true;
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Enter the year");
+			int year = sc.nextInt();
+			boolean flag = false;
+			
+			if(year%400==0)
+			{
+				flag = true;
+			}
+			else if(year % 100 == 0)
+			{
+				flag = false;
+			}
+			else if(year % 4 == 0)
+			{
+				flag = true;
+			}
+			else 
+			{
+				flag = false;
+			}
+			
+			if(flag)
+			{
+				System.out.println("Leap Year");
+			}
+			else 
+				System.out.println("Not a leap Year");
 		}
-		else if(year % 100 == 0)
-		{
-			flag = false;
-		}
-		else if(year % 4 == 0)
-		{
-			flag = true;
-		}
-		else 
-		{
-			flag = false;
-		}
-		
-		if(flag)
-		{
-			System.out.println("Leap Year");
-		}
-		else 
-			System.out.println("Not a leap Year");
 
 	}
 
