@@ -1,3 +1,4 @@
+//Arrays prog to count the number of occurences
 package Array_Programs;
 import java.util.Scanner;
 public class Count_Occurence {
